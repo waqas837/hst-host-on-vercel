@@ -42,7 +42,7 @@ const {
   showAllIamges,
   deleteImage,
   updateImage,
-} = require("./userLogics");
+} = require("../controller/userLogics");
 // routes for user account
 router.post("/signup", signup);
 router.post("/signin", singin);
